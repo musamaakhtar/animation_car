@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0; 
+    /* border: 1px solid #000; */
+}
+.first{
+    background-image: url(./road.jpg);
+    height: 75vh;
+    width: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+.first-one{
+height:40vh;
+width: 40%;
+position:  relative;
+top: 38vh;
+ animation-name: usama;
+ background-size: 100% 100%;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ animation-duration: 3s;
+ z-index: 6;
+}
+@keyframes usama{
+    0%{
+        left: 100%;
+        overflow: hidden;
+    }
+    100%{
+          left: -30%;
+       overflow: hidden;
+    }
+   }
+.a{
+    height: 39vh;
+    width: 35vw;
+    position:  relative;
+    float: left;
+}
+.b{
+    height:17vh ;
+    width: 17vh ;
+    position: absolute;
+    top: 20vh;
+    animation-name: tire1;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    right: 7vw;
+}
+
+.c{
+    height:17vh ;
+    width: 17vh ;
+    position: absolute;
+    top: 20vh;
+    left: 0.5%; 
+    animation-name: tire1;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes tire1{
+    0%{
+        transform: rotate(0deg);
+        overflow: hidden;
+    }
+    100%{
+       transform: rotate(-360deg);
+   }
+}
+.first-two{
+ height:52vh;
+ width: 45vw;
+ position: absolute;
+ top: 20vh;
+ left: 30vw;
+ animation-name: usa;
+ background-size: 100% 100%;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ animation-duration: 5s;
+ z-index: 2;
+}
+@keyframes usa{
+    0%{
+        left: 100%;
+        overflow: hidden;
+    }
+    100%{
+          left: -30%;
+       overflow: hidden;
+    }
+   }
+.d{
+    height: 70vh;
+    width: 40vw;
+    position: relative;
+    /* bottom: 2vh; */
+}
+.e{
+    height:17vh ;
+    width:  17vh;
+    position: absolute;
+    top: 37vh;
+    left: 15.5%;
+    animation-name: tire2;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 5;
+}
+@keyframes tire2{
+    0%{
+        transform: rotate(0deg);
+        overflow: hidden;
+    }
+    100%{
+       transform: rotate(-360deg);
+   }
+}
+.f{
+    height:17vh ;
+    width: 17vh ;
+    position: absolute;
+    top: 36vh;
+    left: 25.8vw;
+    animation-name: tire2;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.first-three{
+    height:60vh;
+    width: 40vw;
+    position: absolute;
+    top: 18vh;
+    left: 60vw;
+    animation-name: us;
+    background-size: 100% 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    z-index: 2;
+}
+@keyframes us{
+    0%{
+        left: 100%;
+        overflow: hidden;
+    }
+    100%{
+          left: -30%;
+       overflow: hidden;
+    }
+   }
+   .g{
+       height: 71vh;
+       width: 40vw;
+       position: relative;
+   }
+   .h{
+       height:17vh ;
+       width: 17vh ;
+       position: absolute;
+       top: 37vh;
+       left: 65%;
+       animation-name: tire3;
+       animation-timing-function: linear;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+   }
+   .i{
+       height:17vh ;
+       width: 17vh ;
+       position: absolute;
+       top: 37vh;
+       left: 18.5%;
+       animation-name: tire3;
+       animation-timing-function: linear;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+   }
+   @keyframes tire3{
+    0%{
+        transform: rotate(0deg);
+        overflow: hidden;
+    }
+    100%{
+       transform: rotate(-360deg);
+   }
+}
